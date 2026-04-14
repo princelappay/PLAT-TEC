@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Drive - Luxury Car Rental</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand"> 
+            <img src="logo.png" alt="Elite Drive Logo" class="logo">
+            ELITE DRIVE
+        </div>
+        <div class="nav-links">
+            <a href="#" class="active">Dashboard</a>
+            <a href="#">Fleet</a>
+            <a href="#">Bookings</a>
+            <div class="notification-icon">
+                <i class="fa-regular fa-bell"></i>
+                <span class="notification-badge">3</span>
+            </div>
+            <a href="#" class="btn btn-small">Admin Panel</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero">
+            <h1>Experience Premium Travel</h1>
+            <p>Rent the world's most elite vehicles with a single click.</p>
+            <div class="hero-actions">
+                <button class="btn btn-primary">Browse Fleet</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </section>
+
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>12</h3>
+                <p>Active Bookings</p>
+            </div>
+            <div class="stat-card">
+                <h3>$4,250</h3>
+                <p>Total Spent</p>
+            </div>
+            <div class="stat-card">
+                <h3>Elite</h3>
+                <p>Member Status</p>
+            </div>
+        </div>
+
+        <div class="quick-actions">
+            <h2>Recent Activity</h2>
+            <div class="admin-table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Vehicle</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Porsche 911 Carrera</td>
+                            <td>Oct 24, 2023</td>
+                            <td><span class="status-confirmed">Confirmed</span></td>
+                            <td class="car-price">$240/day</td>
+                        </tr>
+                        <tr>
+                            <td>Tesla Model S Plaid</td>
+                            <td>Oct 20, 2023</td>
+                            <td><span class="status-pending">Pending</span></td>
+                            <td class="car-price">$180/day</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="featured-section">
+            <h2>Payment Methods</h2>
+            <p>API Integrated: Stripe / PayPal Active</p>
+            <div class="action-buttons" style="margin-top: 1rem;">
+                <button class="btn btn-secondary"><i class="fa-brands fa-cc-visa"></i> **** 4242</button>
+                <button class="btn btn-primary">+ Add Method</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
